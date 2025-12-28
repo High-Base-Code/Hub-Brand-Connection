@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBC - Hub Brand Connection | Agence d'Influence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+
+    <!-- Site Principal -->
+    <div class="main-site" id="mainSite">
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">HBC</span>
+                <span class="logo-subtitle">Hub Brand Connection</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#remuneration" class="nav-link">Rémunération</a></li>
+                <li><a href="#emails" class="nav-link">Emails</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#processus" class="nav-link">Processus</a></li>
+                <li><a href="#avantages" class="nav-link">Avantages</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">HBC</span>
+                    <span class="title-line subtitle">Hub Brand Connection</span>
+                </h1>
+                <p class="hero-description">
+                    L'agence qui connecte les marques aux influenceurs Twitch et YouTube
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="ctaButton">
+                        <span>Découvrir nos services</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary" id="contactButton">
+                        Nous contacter
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-icon">🎮</div>
+                    <div class="card-text">Twitch</div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">📺</div>
+                    <div class="card-text">YouTube</div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">💼</div>
+                    <div class="card-text">Marques</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll pour découvrir</p>
+        </div>
+    </section>
+
+
+    <!-- Rémunération Section -->
+    <section id="remuneration" class="remuneration">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notre Modèle de Rémunération</h2>
+                <p class="section-subtitle">Transparent, équitable et simple</p>
+            </div>
+            <div class="remuneration-content">
+                <div class="remuneration-card">
+                    <div class="remuneration-icon">💵</div>
+                    <h3 class="remuneration-title">Commission de 10%</h3>
+                    <p class="remuneration-description">
+                        Nous prélevons <strong>10% de commission</strong> sur chaque opération de sponsoring réussie.
+                        Cette commission est calculée sur le montant total de l'opération sponsorisée.
+                    </p>
+                    <div class="remuneration-example">
+                        <h4>Exemple concret :</h4>
+                        <div class="example-box">
+                            <div class="example-item">
+                                <span class="example-label">Montant de l'opération sponsorisée :</span>
+                                <span class="example-value">1 000 €</span>
+                            </div>
+                            <div class="example-item">
+                                <span class="example-label">Commission HBC (10%) :</span>
+                                <span class="example-value commission">100 €</span>
+                            </div>
+                            <div class="example-item total">
+                                <span class="example-label">Revenu pour l'influenceur :</span>
+                                <span class="example-value">900 €</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="remuneration-benefits">
+                        <h4>Pourquoi ce modèle ?</h4>
+                        <ul>
+                            <li>✅ <strong>Transparence totale</strong> : vous savez exactement combien vous gagnez</li>
+                            <li>✅ <strong>Pas de frais cachés</strong> : tout est clair dès le départ</li>
+                            <li>✅ <strong>Rémunération uniquement sur succès</strong> : nous ne gagnons que si vous gagnez</li>
+                            <li>✅ <strong>Négociation optimale</strong> : nous obtenons les meilleurs tarifs pour maximiser vos revenus</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emails Section -->
+    <section id="emails" class="emails">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Email Professionnel Personnalisé</h2>
+                <p class="section-subtitle">Un email professionnel pour chaque partenaire influenceur</p>
+            </div>
+            <div class="emails-content">
+                <div class="emails-grid">
+                    <div class="email-card">
+                        <div class="email-icon">📧</div>
+                        <h3 class="email-title">Email Personnalisé</h3>
+                        <p class="email-description">
+                            Chaque partenaire influenceur reçoit un <strong>email professionnel personnalisé</strong> 
+                            au format : <code>votre-nom@hbconnection.com</code>
+                        </p>
+                        <div class="email-example">
+                            <p><strong>Exemple :</strong></p>
+                            <p class="email-address">bastien.rapaud@hbconnection.com</p>
+                            <p class="email-address">herve.duong@hbconnection.com</p>
+                        </div>
+                    </div>
+                    <div class="email-card">
+                        <div class="email-icon">📬</div>
+                        <h3 class="email-title">Centralisation</h3>
+                        <p class="email-description">
+                            Tous les emails des sponsors sont <strong>automatiquement centralisés</strong> 
+                            sur une seule boîte mail principale. Vous ne manquez aucune opportunité !
+                        </p>
+                        <div class="email-benefits">
+                            <ul>
+                                <li>✅ Réception centralisée de tous les mails sponsors</li>
+                                <li>✅ Organisation optimale des opportunités</li>
+                                <li>✅ Suivi facilité de toutes les campagnes</li>
+                                <li>✅ Image professionnelle renforcée</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nos Services</h2>
+                <p class="section-subtitle">Une solution complète pour connecter marques et influenceurs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-service="1">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Recherche de Sponsors</h3>
+                    <p class="service-description">
+                        Nous contactons activement les entreprises et marques pour obtenir des opportunités de sponsoring adaptées à votre audience.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">Négociation</span>
+                        <span class="feature-tag">Sélection</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="2">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            <path d="M13 8H7"></path>
+                            <path d="M17 12H7"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Matching Personnalisé</h3>
+                    <p class="service-description">
+                        Chaque influenceur reçoit des propositions de sponsoring soigneusement sélectionnées selon son style, son audience et ses préférences.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">Personnalisation</span>
+                        <span class="feature-tag">Pertinence</span>
+                    </div>
+                </div>
+                <div class="service-card" data-service="3">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Gestion Complète</h3>
+                    <p class="service-description">
+                        Nous gérons toute la logistique : contrats, suivi des campagnes, paiements. Vous vous concentrez sur votre contenu.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature-tag">Administratif</span>
+                        <span class="feature-tag">Suivi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Processus Section -->
+    <section id="processus" class="processus">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comment ça marche ?</h2>
+                <p class="section-subtitle">Un processus simple et efficace en 4 étapes</p>
+            </div>
+            <div class="processus-timeline">
+                <div class="timeline-line"></div>
+                <div class="processus-step" data-step="1">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Contact des Marques</h3>
+                        <p class="step-description">
+                            Notre équipe prospecte et négocie avec les entreprises pour obtenir les meilleures opportunités de sponsoring.
+                        </p>
+                    </div>
+                </div>
+                <div class="processus-step" data-step="2">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Sélection & Matching</h3>
+                        <p class="step-description">
+                            Nous analysons chaque opportunité et la proposons aux influenceurs dont l'audience correspond parfaitement.
+                        </p>
+                    </div>
+                </div>
+                <div class="processus-step" data-step="3">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Placement de Produit</h3>
+                        <p class="step-description">
+                            L'influenceur intègre naturellement le produit dans son contenu Twitch ou YouTube selon ses préférences.
+                        </p>
+                    </div>
+                </div>
+                <div class="processus-step" data-step="4">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Suivi & Commission</h3>
+                        <p class="step-description">
+                            Nous assurons le suivi de la campagne et gérons les paiements. Notre commission de <strong>10%</strong> sur le montant total de l'opération est transparente et équitable. Vous recevez 90% du montant négocié.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages Section -->
+    <section id="avantages" class="avantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pourquoi choisir HBC ?</h2>
+                <p class="section-subtitle">Les avantages de travailler avec nous</p>
+            </div>
+            <div class="avantages-grid">
+                <div class="avantage-card">
+                    <div class="avantage-icon">🎯</div>
+                    <h3 class="avantage-title">Matching Précis</h3>
+                    <p class="avantage-text">Chaque sponsoring est choisi selon votre style et votre audience</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">⚡</div>
+                    <h3 class="avantage-title">Gain de Temps</h3>
+                    <p class="avantage-text">Plus besoin de chercher des sponsors, on s'en occupe pour vous</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">💰</div>
+                    <h3 class="avantage-title">Tarifs Compétitifs</h3>
+                    <p class="avantage-text">Nous négocions les meilleurs tarifs pour maximiser vos revenus</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">🤝</div>
+                    <h3 class="avantage-title">Support Dédié</h3>
+                    <p class="avantage-text">Une équipe à votre écoute pour répondre à toutes vos questions</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">📊</div>
+                    <h3 class="avantage-title">Suivi Transparent</h3>
+                    <p class="avantage-text">Accès à un dashboard pour suivre toutes vos campagnes</p>
+                </div>
+                <div class="avantage-card">
+                    <div class="avantage-icon">🚀</div>
+                    <h3 class="avantage-title">Croissance</h3>
+                    <p class="avantage-text">Accompagnement dans votre développement en tant qu'influenceur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="contact-title">Prêt à commencer ?</h2>
+                    <p class="contact-description">
+                        Que vous soyez une marque à la recherche d'influenceurs ou un créateur de contenu cherchant des sponsors, contactez-nous !
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@hbconnection.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">👥</div>
+                            <div>
+                                <h4>Équipe</h4>
+                                <p>Bastien RAPAUD & Hervé DUONG</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="type">Je suis</label>
+                        <select id="type" name="type" required>
+                            <option value="">Sélectionnez...</option>
+                            <option value="influenceur">Influenceur / Créateur</option>
+                            <option value="marque">Marque / Entreprise</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Envoyer</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none">
+                            <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-text">HBC</span>
+                        <span class="logo-subtitle">Hub Brand Connection</span>
+                    </div>
+                    <p class="footer-text">Connecter les marques aux influenceurs, c'est notre mission.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#remuneration">Rémunération</a></li>
+                            <li><a href="#emails">Emails</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#processus">Processus</a></li>
+                            <li><a href="#avantages">Avantages</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Légal</h4>
+                        <ul>
+                            <li><a href="#">Mentions légales</a></li>
+                            <li><a href="#">CGV</a></li>
+                            <li><a href="#">Confidentialité</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HBC - Hub Brand Connection. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
